@@ -1,0 +1,86 @@
+#howApp__work{
+    background-color: var( --sectionColor);
+}
+.qsalary__work h6 {
+  font-size: var(--mainFontSize);
+  color: var(--sectionheaderColor);
+}
+.qsalary__work p {
+  font-size:2rem;
+  color: var(--sectionheaderColor);
+
+}
+/* mediaQuery */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #howApp__work{
+    width: 470px;
+    transform: translateX(-15px);
+  }
+  .qsalary__work h6 {
+    font-size:14px;
+  }
+  .qsalary__work p {
+    font-size:28px;
+  
+  }
+  .benefits___container h5{
+    font-size: 20px;
+  }
+  .benefits___container p{
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 568px) {
+  #howApp__work{
+    width: 100%;
+  }
+  .qsalary__work h6 {
+    font-size:14px;
+  }
+  .qsalary__work p {
+    font-size:28px;
+  
+  }
+  .benefits___container h5{
+    font-size: 20px;
+  }
+  .benefits___container p{
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  #howApp__work{
+    width: 100%;
+  }
+  .qsalary__work h6 {
+    font-size:14px;
+  }
+  .qsalary__work p {
+    font-size:28px;
+  
+  }
+  .benefits___container h5{
+    font-size: 20px;
+  }
+  .benefits___container p{
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #howApp__work{
+    width: 100%;
+  }
+  .qsalary__work h6 {
+    font-size:14px;
+  }
+  .qsalary__work p {
+    font-size:28px;
+  
+  }
+  .benefits___container h5{
+    font-size: 20px;
+  }
+  .benefits___container p{
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,113 @@
+.navbar-brand_p {
+  color: var(--mainColor);
+  transform: translate(29px, 5px);
+}
+
+.nav-link {
+  color: rgba(65, 41, 102, 0.68);
+  font-size: 0.875rem;
+}
+.nav-link:hover {
+  color: var(--mainColor) !important ;
+}
+.nav-link.active {
+  color: var(--mainColor) !important ;
+}
+.lagn__btn,
+.register__btn {
+  background-color: transparent;
+  color: var(--mainColor);
+}
+.register__btn {
+  border: 1px solid var(--mainColor);
+  border-radius: 10px;
+  font-size: 0.875rem;
+}
+.lagn__btn,
+.register__btn:hover {
+  color: var(--mainColor) !important ;
+}
+.switch-locale a {
+  text-decoration: none;
+  color: var(--mainColor);
+}
+/* body.ltr .nav-link{
+  font-size: 16px !important;
+  font-weight: 600 !important;
+} */
+body.ltr .navbar-nav {
+  margin-left: 30% !important;
+}
+body.ltr .navbar-brand_p {
+  transform: translate(-29px, 5px);
+}
+body.ltr .register__btn {
+  transform: translateX(36px);
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+/* mediaQuery */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .navbar-brand {
+    transform: translateX(54%);
+  }
+
+  .navbar {
+    width: 400px !important;
+  }
+  .navbar-brand_p {
+    display: none !important;
+  }
+  .header_lang {
+    display: block !important;
+  }
+  .register__btn {
+    width: 70%;
+  }
+  .switch-locale {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 568px) {
+  .navbar-brand_p {
+    display: none !important;
+  }
+  .header_lang {
+    display: block !important;
+  }
+  .register__btn {
+    width: 70%;
+  }
+  .switch-locale {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .navbar-brand_p {
+    display: none !important;
+  }
+  .header_lang {
+    display: block !important;
+  }
+  .register__btn {
+    width: 70%;
+  }
+  .switch-locale {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .navbar-brand_p {
+    display: none !important;
+  }
+  .header_lang {
+    display: block !important;
+  }
+  .register__btn {
+    width: 70%;
+  }
+  .switch-locale {
+    display: none !important;
+  }
+}

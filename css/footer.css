@@ -1,0 +1,145 @@
+.footerRow {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  text-align: center;
+}
+.footerRow a {
+  text-decoration: none;
+  color: rgba(65, 41, 102, 0.68);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.footerRow button {
+  transform: translateY(-19px);
+}
+.footerRow img {
+  width: 40%;
+  height: 70%;
+}
+.footer_img {
+  transform: translateY(-10px);
+}
+.footerRow p {
+  font-size: var(--mainFontSize);
+  color: rgba(43, 43, 43, 1);
+  font-weight: 400;
+}
+.secpp {
+  transform: translateX(-100px);
+}
+.fristpp {
+  transform: translateX(20%);
+}
+.brak {
+  width: 91%;
+  background-color: rgb(128, 128, 128, 0.5);
+  height: 1px;
+  transform: translateX(-25px);
+}
+body.ltr .secpp {
+  transform: translateX(61%) !important;
+}
+body.ltr .fristpp {
+  transform: translateX(21%) !important;
+}
+/* mediaQuery */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .footerRow {
+    width: 480px;
+  }
+  .footer__links,
+  .footer_img {
+    justify-content: center;
+  }
+  .footerRow .logo {
+    width: 120px;
+  }
+  .footerRow img {
+    width: 40%;
+    height: 80%;
+  }
+  .secpp {
+    transform: translateX(16px);
+  }
+  .fristpp {
+    transform: translateX(-3%);
+  }
+  .footerRow a {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 568px) {
+  .footerRow {
+    width: 490px;
+  }
+  .footer__links,
+  .footer_img {
+    justify-content: center;
+  }
+  .footerRow .logo {
+    width: 120px;
+  }
+  .footerRow img {
+    width: 40%;
+    height: 80%;
+  }
+  .secpp {
+    transform: translateX(16px);
+  }
+  .fristpp {
+    transform: translateX(-3%);
+  }
+  .footerRow a {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .footerRow {
+    width: 540px;
+  }
+  .footer__links,
+  .footer_img {
+    justify-content: center;
+  }
+  .footerRow .logo {
+    width: 120px;
+  }
+  .footerRow img {
+    width: 40%;
+    height: 80%;
+  }
+  .secpp {
+    transform: translateX(16px);
+  }
+  .fristpp {
+    transform: translateX(-3%);
+  }
+  .footerRow a {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .footerRow {
+    width: 720px;
+  }
+  .footer__links,
+  .footer_img {
+    justify-content: center;
+  }
+  .footerRow .logo {
+    width: 120px;
+  }
+  .footerRow img {
+    width: 40%;
+    height: 60%;
+  }
+  .secpp {
+    transform: translateX(16px);
+  }
+  .fristpp {
+    transform: translateX(-3%);
+  }
+  .footerRow a {
+    font-size: 12px;
+  }
+}

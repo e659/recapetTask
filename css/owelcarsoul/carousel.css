@@ -1,0 +1,22 @@
+.owl-theme .owl-nav {
+  display: none !important;
+}
+/* mediaQuery */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .partner_sec{
+    width: 470px;
+  }
+  .owl-carousel img {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 568px) {
+  .owl-carousel img {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .owl-carousel img {
+    width: 100% !important;
+  }
+}

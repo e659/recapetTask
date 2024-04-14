@@ -1,0 +1,73 @@
+.sectionBg {
+  background-color: var(--sectionColor);
+}
+.commonQuesList {
+  list-style-type: none;
+  transform: translateX(-20%);
+}
+.commonQuesList li {
+  padding: 12px;
+  font-size: var(--mainFontSize);
+}
+.break__line {
+  width: 750px;
+  height: 1.5px;
+  background-color: rgba(213, 216, 220, 1);
+}
+.commonQuesList img{
+  width: 20px;
+  height: 20px;
+  transform: translateY(15px);
+}
+body.ltr .commonQuesList{
+  transform: translateX(27%);
+}
+/* mediaQuery */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+ 
+  .common__sec{
+    width: 480px;
+  }
+  .commonQuesList {
+    transform: translateX(0%);
+  }
+  .break__line {
+    width: 347px !important;
+  }
+  .common__btn{
+    width: 85% !important;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 568px) {
+  .sectionBg{
+    width: 100%;
+  }
+  .commonQuesList {
+    transform: translateX(0%);
+  }
+  .break__line {
+    width: 400px !important;
+  }
+}
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .sectionBg{
+    width: 100%;
+  }
+  .commonQuesList {
+    transform: translateX(0%);
+  }
+  .break__line {
+    width: 400px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .sectionBg{
+    width: 100%;
+  }
+  .commonQuesList {
+    transform: translateX(0%);
+  }
+  .break__line {
+    width: 600px !important;
+  }
+}

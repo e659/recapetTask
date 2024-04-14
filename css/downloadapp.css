@@ -1,0 +1,125 @@
+.download__app {
+  background-image: url(../assets/38b4b755133a14358fcbe7b8b201ae5e.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 297.59px;
+  border-radius: 8px;
+}
+.layout {
+  position: absolute;
+  background-color: rgb(61, 30, 99, 0.9);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0%;
+  border-radius: 8px;
+}
+.download__rightside h5 {
+  font-size: 1.25rem;
+  color: white;
+}
+.download__rightside p {
+  font-size: 2rem;
+  color: white;
+}
+.download__leftside {
+  bottom: -1px;
+  left: 30px;
+}
+body.ltr .download__leftside {
+  bottom: -1px;
+  left: 53%;
+}
+/* mediaQuery */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .download__app {
+    width: 450px;
+    height: 767.19px;
+    transform: translateX(-21px);
+  }
+  .download__rightside h5 {
+    transform: translateX(-15px);
+  }
+  .download__rightside p {
+    transform: translateX(-15px);
+  }
+  .download__leftside img {
+    width: 410px;
+  }
+  .download__leftside {
+    bottom: -1px;
+    left: 5px;
+  }
+  .down___row img {
+    transform: translateX(-10px);
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 568px) {
+  .download__app {
+    width: 450px;
+    height: 767.19px;
+    transform: translateX(-21px);
+  }
+  .download__rightside h5 {
+    transform: translateX(-12px);
+  }
+  .download__rightside p {
+    transform: translateX(-12px);
+  }
+  .download__leftside img {
+    width: 410px;
+  }
+  .download__leftside {
+    bottom: -1px;
+    left: 5px;
+  }
+  .down___row img {
+    transform: translateX(-10px);
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .download__app {
+    width: 500px;
+    height: 767.19px;
+    transform: translateX(-21px);
+  }
+  .download__rightside h5 {
+    transform: translateX(-12px);
+  }
+  .download__rightside p {
+    transform: translateX(-12px);
+  }
+  .download__leftside img {
+    width: 410px;
+  }
+  .download__leftside {
+    bottom: -1px;
+    left: 5px;
+  }
+  .down___row img {
+    transform: translateX(-10px);
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .download__leftside img {
+    width: 310px;
+  }
+  .download__leftside {
+    left: 1px;
+  }
+  .down___row img {
+    width: 150px;
+    transform: translateX(-10px);
+  }
+  .download__rightside h5 {
+    transform: translateX(-12px);
+  }
+  .download__rightside p {
+    transform: translateX(-12px);
+  }
+}
