@@ -32,6 +32,7 @@ body.ltr .nthRow {
   } */
   .nineth___section {
     width: 485px;
+    transform: translatex(-1.3%);
   }
   .nineth___section h5 {
     font-size: 22.5px;
@@ -48,7 +49,8 @@ body.ltr .nthRow {
 }
 @media screen and (min-width: 480px) and (max-width: 568px) {
   .nineth___section {
-    width: 100%;
+    width: 470px;
+    transform: translatex(-1%);
   }
   .nineth___section h5 {
     font-size: 22.5px;
@@ -65,7 +67,8 @@ body.ltr .nthRow {
 }
 @media screen and (min-width: 568px) and (max-width: 768px) {
   .nineth___section {
-    width: 100%;
+    width: 591px;
+    /* transform: translatex(5%); */
   }
   .nineth___section h5 {
     font-size: 22.5px;

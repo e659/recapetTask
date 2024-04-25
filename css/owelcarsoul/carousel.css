@@ -5,6 +5,7 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .partner_sec{
     width: 470px;
+    transform: translateX(-27px);
   }
   .owl-carousel img {
     width: 100% !important;

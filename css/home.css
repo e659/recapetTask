@@ -17,8 +17,8 @@
   height: 4px;
   position: absolute;
   background-color: var(--mainColor);
-  top: 64px;
-  left: 88%;
+  top: 12%;
+  left: 91%;
 }
 .lasthome_p {
   font-size: var(--mainFontSize);
@@ -30,6 +30,7 @@
   font-size: 0.875rem;
   padding: 10px;
   border-radius: 8px;
+  font-weight: 500;
 }
 
 .fristhome_btn:hover {
@@ -38,6 +39,7 @@
 .fristhome_btn {
   color: white;
   background-color: var(--mainColor);
+  
 }
 .lasthome_btn:hover {
   color: var(--mainColor);
@@ -46,7 +48,7 @@
   border: 1px solid var(--mainColor);
   color: var(--mainColor);
 }
-body.ltr .home_rightSec{
+body.ltr .home_rightSec {
   transform: translateX(24px);
 }
 /* mediaQuery */
@@ -154,9 +156,19 @@ body.ltr .home_rightSec{
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .home_rightSec .fristhome_p {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
-  .lasthome_p{
-    font-size: 1rem;
+  .lasthome_p {
+    font-size: .9rem;
+  }
+  .fristhome_btn{
+    margin-bottom: 10px;
+  }
+  .lasthome_btn{
+    padding-left: 31px !important;
+   
+  }
+  .home_rightSec::after {
+    display: none;
   }
 }

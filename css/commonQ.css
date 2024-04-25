@@ -3,71 +3,102 @@
 }
 .commonQuesList {
   list-style-type: none;
-  transform: translateX(-20%);
+  transform: translateX(-50%);
 }
-.commonQuesList li {
-  padding: 12px;
-  font-size: var(--mainFontSize);
+.accordion-button::after {
+  background-image: url(../assets/SVG.png);
+  right: -1%;
+  position: absolute;
 }
-.break__line {
-  width: 750px;
-  height: 1.5px;
-  background-color: rgba(213, 216, 220, 1);
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../assets/SVG.png);
 }
-.commonQuesList img{
-  width: 20px;
-  height: 20px;
-  transform: translateY(15px);
+.accordion-button {
+  background-color: var(--sectionColor);
 }
-body.ltr .commonQuesList{
+.accordion-body{
+  background-color: var(--sectionColor);
+}
+.accordion-button:not(.collapsed) {
+  color: #0c63e4;
+  background-color: var(--sectionColor);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+.accordion-item {
+  border: 2px solid rgba(0, 0, 0, .125);
+}
+body.ltr .commonQuesList {
   transform: translateX(27%);
 }
 /* mediaQuery */
 @media screen and (min-width: 320px) and (max-width: 480px) {
- 
-  .common__sec{
+  .common__sec {
     width: 480px;
+    transform: translateX(-2%);
   }
   .commonQuesList {
-    transform: translateX(0%);
+    transform: translateX(-10%);
+  }
+  .accordion-flush{
+    width: 80% !important;
   }
   .break__line {
     width: 347px !important;
   }
-  .common__btn{
+  .common__btn {
     width: 85% !important;
+  }
+  .accordion-item button{
+    font-size: 13px;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 568px) {
-  .sectionBg{
-    width: 100%;
+  .common__sec {
+    width: 470px;
+    transform: translateX(-1%);
   }
   .commonQuesList {
-    transform: translateX(0%);
+    transform: translateX(-10%);
+  }
+  .accordion-flush{
+    width: 80% !important;
   }
   .break__line {
-    width: 400px !important;
+    width: 347px !important;
+  }
+  .common__btn {
+    width: 85% !important;
+  }
+  .accordion-item button{
+    font-size: 13px;
   }
 }
 @media screen and (min-width: 568px) and (max-width: 768px) {
-  .sectionBg{
-    width: 100%;
+  .common__sec {
+    width: 539px;
+    transform: translateX(-6%);
+  }
+  .accordion-flush{
+    width: 80% !important;
   }
   .commonQuesList {
-    transform: translateX(0%);
+    transform: translateX(-10%);
   }
   .break__line {
     width: 400px !important;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  .sectionBg{
+  .sectionBg {
     width: 100%;
   }
   .commonQuesList {
-    transform: translateX(0%);
+    transform: translateX(-10%);
   }
-  .break__line {
+  .accordion-flush{
+    width: 80% !important;
+  }
+  /* .break__line {
     width: 600px !important;
-  }
+  } */
 }

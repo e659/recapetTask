@@ -1,6 +1,12 @@
 #howApp__work{
     background-color: var( --sectionColor);
 }
+#howApp__work h5{
+  font-weight: 500;
+}
+#howApp__work p{
+  font-weight: 400;
+}
 .qsalary__work h6 {
   font-size: var(--mainFontSize);
   color: var(--sectionheaderColor);
@@ -71,10 +77,10 @@
     width: 100%;
   }
   .qsalary__work h6 {
-    font-size:14px;
+    font-size:12px;
   }
   .qsalary__work p {
-    font-size:28px;
+    font-size:25px;
   
   }
   .benefits___container h5{
